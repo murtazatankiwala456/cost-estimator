@@ -240,6 +240,11 @@ h1 {
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
 }
+@media only screen and (max-width: 1000px) {
+  .container {
+    width: 90%;
+  }
+}
 
 @media only screen and (max-width: 750px) {
   .card {
@@ -265,11 +270,5 @@ h1 {
   }
   .container {
     padding: 0 16px;
-  }
-}
-
-@media only screen and (max-width: 1000px) {
-  .container {
-    width: 90%;
   }
 }
