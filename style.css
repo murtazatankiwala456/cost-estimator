@@ -240,3 +240,39 @@ h1 {
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
 }
+
+@media only screen and (max-width: 750px) {
+  .container {
+    width: 90%;
+  }
+  .card {
+    width: 100%;
+  }
+  .card-wrapper {
+    flex-wrap: wrap-reverse;
+  }
+  .sessions-card {
+    width: 80%;
+  }
+  h1 {
+    margin: 0 0 16px 0;
+  }
+  .toggle-wrapper {
+    width: 90%;
+    justify-content: space-around;
+  }
+}
+@media only screen and (max-width: 600px) {
+  body {
+    padding: 16px;
+  }
+  .container {
+    padding: 0 16px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .container {
+    width: 90%;
+  }
+}
